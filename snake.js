@@ -42,8 +42,8 @@ function draw() {
   if(gameOver === false){
     /*hack ++;
     if(hack > 1000){
-      snake.x.push(snake.x[snake.x.length-1]);
-      snake.y.push(snake.y[snake.y.length-1]);
+      snake.x.push(snake.x[snake.x.length-100]);
+      snake.y.push(snake.y[snake.y.length-100]);
       snake.xV.push(0);
       snake.yV.push(0);
     }*/

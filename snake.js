@@ -65,7 +65,7 @@ function draw() {
           }
         }
         if(snake.x[i] === apple.x && snake.y[i] === apple.y){
-          for(var t = 3;t < 300;t ++){
+          for(var t = 3;t < 1000000;t ++){
             snake.x.push(snake.x[snake.x.length-1]);
             snake.y.push(snake.y[snake.y.length-1]);
             snake.xV.push(0);
